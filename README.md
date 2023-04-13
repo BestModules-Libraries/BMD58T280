@@ -1,14 +1,14 @@
 <div align=center>
-<img src="https://github.com/BestModules-ArduinoLibraries/img/blob/main/BMS36T001_V1.0%20.png" width="240" height="240"> 
+<img src="https://github.com/BestModules-ArduinoLibraries/img/blob/main/BMD58T280_V1.0.png" width="240" height="240"> 
 </div> 
 
 
-BMS36T001 
+BMD58T280 
 ===========================================================
 
-The Best Modules BMS36T001 is a shield board for IR proximity sensing with motor driver output function, which uses the UART communication method. This document provides the description of the BMS36T001 Arduino Lib functions and how to install the Arduino Lib. The example demonstrates the function of driving the motor forward when the module is in the sensing status and driving the motor to standby when the module is not in the sensing status.
+The Best Modules BMD58T280 is a shield board for 2.8” TFT-LCD display function, which uses the SPI and EBI communication methods. This document provides the description of the BMD58T280 Arduino Lib functions and how to install the Arduino Lib. The example demonstrates the function of TFT display.
 
-This library can be installed via the Arduino Library manager. Search for **BMS36T001 **. 
+This library can be installed via the Arduino Library manager. Search for **BMD58T280 **. 
 
 Repository Contents
 -------------------
@@ -21,7 +21,7 @@ Repository Contents
 Documentation 
 -------------------
 
-* **[BMS36T001 Arduino Library V1.0.1 Description v100]( https://www.bestmodulescorp.com/bms36t001.html#tab-product2 )** - Arduino Library Description.
+* **[BMD58T280 Arduino Library V1.0.1 Description v100]( https://www.bestmodulescorp.com/bmd58t280.html#tab-product2 )** - Arduino Library Description.
 
 Version History  
 -------------------
