@@ -1,0 +1,67 @@
+#######################################
+# Coloring Map ()
+#######################################
+
+#######################################
+# Class (KEYWORD1)
+#######################################
+BMD58T280	KEYWORD1
+BM_XPT2046	KEYWORD1
+BM_ILI9341	KEYWORD1
+BmpImage	KEYWORD1
+SDReadRawData	KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+image	KEYWORD2
+scrollTo	KEYWORD2
+drawPixels	KEYWORD2
+height	KEYWORD2
+width	KEYWORD2
+getRotation	KEYWORD2
+text	KEYWORD2
+textWrap	KEYWORD2
+circle	KEYWORD2
+Point()	KEYWORD2
+line	KEYWORD2
+rect	KEYWORD2
+triangle	KEYWORD2
+setScrollMargins	KEYWORD2
+setAddrWindow	KEYWORD2
+setRotation	KEYWORD2
+fill	KEYWORD2
+noFill	KEYWORD2
+stroke	KEYWORD2
+noStroke	KEYWORD2
+background	KEYWORD2
+textSize	KEYWORD2
+loadImage	KEYWORD2
+getPoint	KEYWORD2
+touched	KEYWORD2
+close	KEYWORD2
+init	KEYWORD2
+readBlock	KEYWORD2
+waitDmaFinish	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+BLACK	LITERAL1
+NAVY	LITERAL1
+DARKGREEN	LITERAL1
+DARKCYAN	LITERAL1
+MAROON	LITERAL1
+PURPLE	LITERAL1
+OLIVE	LITERAL1
+LIGHTGREY	LITERAL1
+DARKGREY	LITERAL1
+BLUE	LITERAL1
+GREEN	LITERAL1
+CYAN	LITERAL1
+RED	LITERAL1
+MAGENTA	LITERAL1
+YELLOW	LITERAL1
+WHITE	LITERAL1
+ORANGE	LITERAL1
+GREENYELLOW	LITERAL1
+PINK	LITERAL1
