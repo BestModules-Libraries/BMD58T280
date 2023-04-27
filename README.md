@@ -8,7 +8,7 @@ BMD58T280
 
 The Best Modules BMD58T280 is a shield board for 2.8” TFT-LCD display function, which uses the SPI and EBI communication methods. This document provides the description of the BMD58T280 Arduino Lib functions and how to install the Arduino Lib. The example demonstrates the function of TFT display.
 
-This library can be installed via the Arduino Library manager. Search for **BMD58T280 **. 
+This library can be installed via the Arduino Library manager. Search for **BMD58T280**. 
 
 Repository Contents
 -------------------
