@@ -1,0 +1,4 @@
+1. Open LCD_Factory V1.0.17.exe.
+2. Click Option and cancel "Compress".
+3. Click "Save Image Bin" and save it.
+The output file is the raw data of the Images(Video.ing).
