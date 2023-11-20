@@ -27,7 +27,7 @@ Version History
 -------------------
 
 * **V1.0.1** - Initial public release.
-* **V1.0.2** - optimize function:setRotation()-change the assignment to the height and width of the screen.
+* **V1.0.2** - Change the function setRotation to adjust the LCD coordinates to match the absolute position.
 
 License Information
 -------------------
