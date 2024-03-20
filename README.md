@@ -26,8 +26,14 @@ Documentation
 Version History  
 -------------------
 
-* **V1.0.1** - Initial public release.
-* **V1.0.2** - Change the function setRotation to adjust the LCD coordinates to match the absolute position.
+* **V1.0.1**  
+&emsp;&emsp;- Initial public release.
+* **V1.0.2**  
+&emsp;&emsp;- Change the function setRotation to adjust the LCD coordinates to match the absolute position
+* **V1.0.3**  
+&emsp;&emsp;- Add function "void text(const char * text, int16_t x, int16_t y, uint16_t textcolor, uint16_t textbgcolor)" and "void textWrap(const char * text, int16_t x, int16_t y, uint16_t textcolor, uint16_t textbgcolor)"：You can directly set the font color and background color(These two colors are not related to the settings of the "stroke" and "background" functions).  
+&emsp;&emsp;- Change example "TFTDisplayText": Use newly added functions for demonstration to avoid flickering issues.
+
 
 License Information
 -------------------
