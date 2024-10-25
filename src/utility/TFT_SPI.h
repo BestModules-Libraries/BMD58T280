@@ -27,6 +27,7 @@ class TFT_SPI: public TFT_LowLevelInf{
     {
       _freq = freq;
       digitalWrite(_bl, HIGH);
+      pinMode(_bl, OUTPUT);
       _spiClass->begin();
       _spiMode = spiMode;
       digitalWrite(_dc, HIGH);

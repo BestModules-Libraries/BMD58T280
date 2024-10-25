@@ -1,38 +1,38 @@
 /*****************************************************************
-File:        BMD58T280.cpp
-Author:      BESTMODULES
-Description: Driver of BMD58T280
-History:     V1.0.3   -- 2024-03-14
+File:           BMD58T280.cpp
+Author:         BEST MODULES CORP.
+Description:    BMD58T280.cpp is the library for controlling the BMD58T280 TFT-LCD Module
+Version:        V1.0.4   -- 2024-10-25
 ******************************************************************/
 #include "BMD58T280.h"
 #include <limits.h>
 
 /**********************************************************
 Description: Constructor
-Input:
-Output:
-Return:
-Others:
+Parameters:  node
+Return:      node    
+Others:      node
 **********************************************************/
 BMD58T280::BMD58T280()
     : BM_ILI9341(TFTWIDTH, TFTHEIGHT, NULL) {}
 
 /**********************************************************
 Description: Constructor
-Input:       *spiClass : SPI's object
-Output:
-Return:
-Others:
+Parameters:  *spiClass: Wire object if your board has more than one SPI interface      
+                         parameter range:
+                                         BMduino UNO: &SPI
+                                         Arduino UNO：&SPI
+Return:      node    
+Others:      node
 **********************************************************/
 BMD58T280::BMD58T280(SPIClass *spiClass)
     : BM_ILI9341(TFTWIDTH, TFTHEIGHT, spiClass){}
 
 /**********************************************************
-Description: begin
-Input:       freq : SPI's sclk freq
-Output:
-Return:
-Others:
+Description: begin     
+Parameters:  freq : SPI's sclk freq         
+Return:      void    
+Others:      node
 **********************************************************/
 void BMD58T280::begin(uint32_t freq) {
 
@@ -43,14 +43,13 @@ void BMD58T280::begin(uint32_t freq) {
 
 /**********************************************************
 Description: Write fill a rectangle((Need to clip first)
-Input:       x : The horizontal position where the line starts 
+Parameters:  x : The horizontal position where the line starts 
              y : The vertical position where the line starts
              w : The width of the rectangle
              h : The height of the rectangle
              color : pattern color
-Output:
-Return:
-Others:
+Return:      inline void    
+Others:      node
 **********************************************************/
 inline void BMD58T280::writeFillRectPreclipped(int16_t x,
                                                 int16_t y,
@@ -64,14 +63,13 @@ inline void BMD58T280::writeFillRectPreclipped(int16_t x,
 
 /**********************************************************
 Description: Fill a rectangle
-Input:       x : The horizontal position where the line starts 
+Parameters:  x : The horizontal position where the line starts 
              y : The vertical position where the line starts
              w : The width of the rectangle
              h : The height of the rectangle
              color : pattern color
-Output:
-Return:
-Others:
+Return:      void    
+Others:      node
 **********************************************************/
 void BMD58T280::fillRect(int16_t x, int16_t y, int16_t w, int16_t h,
                                uint16_t color) {
@@ -127,13 +125,12 @@ void BMD58T280::fillRect(int16_t x, int16_t y, int16_t w, int16_t h,
 
 /**********************************************************
 Description: draw horizontal line
-Input:       x : The horizontal position where the line starts 
+Parameters:  x : The horizontal position where the line starts 
              y : The vertical position where the line starts
              w : The width of the rectangle
              color : pattern color
-Output:
-Return:
-Others:
+Return:      void    
+Others:      node
 **********************************************************/
 void BMD58T280::drawHLine(int16_t x, int16_t y, int16_t w,
                                     uint16_t color) {
@@ -169,10 +166,12 @@ void BMD58T280::drawHLine(int16_t x, int16_t y, int16_t w,
 
 /**********************************************************
 Description: draw vertical line
-Input:       x : The horizontal position where the line starts 
+Parameters:  x : The horizontal position where the line starts 
              y : The vertical position where the line starts
              h : The height of the rectangle
              color : pattern color
+Return:      void    
+Others:      node
 **********************************************************/
 void BMD58T280::drawFastVLine(int16_t x, int16_t y, int16_t h,
                                     uint16_t color) {
@@ -207,9 +206,11 @@ void BMD58T280::drawFastVLine(int16_t x, int16_t y, int16_t h,
 
 /**********************************************************
 Description: draw image
-Input:       _img : image
+Parameters:  _img : image
              y : The vertical position where the line starts
              h : The height of the rectangle
+Return:      void    
+Others:      node
 **********************************************************/
 void BMD58T280::image(ImageInf& _img, uint16_t x, uint16_t y)
 {

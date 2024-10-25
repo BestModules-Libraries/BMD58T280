@@ -1,8 +1,8 @@
 /*****************************************************************
-File:        BMD58T280.h
-Author:      BESTMODULES
-Description: BMD58T280 header file
-History:     V1.0.3   -- 2024-03-14
+File:           BMD58T280.h
+Author:         BEST MODULES CORP.
+Description:    Define classes and required variables
+Version:        V1.0.4   -- 2024-10-25
 ******************************************************************/
 #ifndef __BMD58T280_
 #define __BMD58T280_
